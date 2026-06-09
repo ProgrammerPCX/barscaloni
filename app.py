@@ -10,10 +10,6 @@ def home():
 def chi_siamo():
     return render_template("chi_siamo.html")
 
-@app.route("/cucina")
-def cucina():
-    return render_template("cucina.html")
-
 @app.route("/menu")
 def menu():
     return render_template("menu.html")
@@ -23,4 +19,4 @@ def contatti():
     return render_template("contatti.html")
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000)
+    app.run(host="127.0.0.1", port=5000, debug=False)
