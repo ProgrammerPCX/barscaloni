@@ -14,6 +14,10 @@ def chi_siamo():
 def menu():
     return render_template("menu.html")
 
+@app.route("/orari")
+def orari():
+    return render_template("orari.html")
+
 @app.route("/contatti")
 def contatti():
     return render_template("contatti.html")
