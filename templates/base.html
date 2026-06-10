@@ -8,9 +8,23 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>Bar Scaloni | Bar, Cucina, Aperitivi e Tabaccheria a Rosora</title>
+<title>Bar Scaloni | Colazioni, Pranzi, Aperitivi e Tabaccheria a Rosora</title>
 
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='logo3.png') }}">
+<meta name="description"
+content="Bar Scaloni a Rosora (AN): colazioni, pranzi veloci, aperitivi, tabaccheria e cibo da asporto. Un punto di riferimento per la comunità locale.">
+
+<meta name="keywords"
+content="Bar Scaloni, Rosora, bar Rosora, aperitivi Rosora, colazioni Rosora, pranzi veloci Rosora, tabaccheria Rosora, bar provincia Ancona">
+
+<meta name="author"
+content="Bar Scaloni">
+
+<meta name="robots"
+content="index, follow">
+
+<link rel="icon"
+type="image/png"
+href="{{ url_for('static', filename='logo3.png') }}">
 
 <link rel="stylesheet"
 href="{{ url_for('static', filename='css/style.css') }}">
@@ -24,6 +38,41 @@ crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
 rel="stylesheet">
+
+<!-- Open Graph -->
+
+<meta property="og:title"
+content="Bar Scaloni | Rosora">
+
+<meta property="og:description"
+content="Colazioni, pranzi, aperitivi, tabaccheria e cibo da asporto a Rosora.">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:image"
+content="{{ url_for('static', filename='images/locale1.jpg', _external=True) }}">
+
+<!-- Schema.org Local Business -->
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"CafeOrCoffeeShop",
+"name":"Bar Scaloni",
+"telephone":"+39 339 111 9097",
+"address":{
+"@type":"PostalAddress",
+"streetAddress":"Via Roma, 194",
+"addressLocality":"Rosora",
+"postalCode":"60030",
+"addressRegion":"AN",
+"addressCountry":"IT"
+},
+"servesCuisine":"Bar, Colazioni, Aperitivi",
+"priceRange":"€€"
+}
+</script>
 
 </head>
 
@@ -73,11 +122,13 @@ Via Roma, 194<br>
 
 <div class="socials">
 
-<a href="https://www.facebook.com/barscaloni/?locale=it_IT">
+<a href="https://www.facebook.com/barscaloni/?locale=it_IT"
+target="_blank">
 Facebook
 </a>
 
-<a href="https://www.instagram.com/bar_scaloni/">
+<a href="https://www.instagram.com/bar_scaloni/"
+target="_blank">
 Instagram
 </a>
 
