@@ -88,7 +88,7 @@ color:#d4af37;
 
 .hero{
 
-height:135vh;
+height:100vh;
 
 display:flex;
 
@@ -447,17 +447,14 @@ line-height:1.8;
 
     .navbar{
 
+        flex-direction:column;
+
+        gap:15px;
+
         width:95%;
 
-        padding:12px 15px;
+        padding:15px;
 
-        display:flex;
-
-        flex-direction:row;
-
-        justify-content:space-between;
-
-        align-items:center;
     }
 
     .logo{
@@ -481,46 +478,9 @@ line-height:1.8;
         font-size:0.95rem;
     }
 
-    .hero-content{
-
-        display:block;
-
-        position:absolute;
-
-        top:40px;
-
-        left:50%;
-
-        transform:translateX(-50%);
-
-        width:90%;
-
-        text-align:center;
-
-        z-index:5;
-    }
-
-    .hero h1{
-
-        font-size:2.3rem;
-
-        margin-bottom:10px;
-
-        text-shadow:0 5px 20px rgba(0,0,0,.7);
-    }
-
-    .hero p{
-
-        font-size:1rem;
-
-        margin-bottom:0;
-
-        text-shadow:0 5px 20px rgba(0,0,0,.7);
-    }
-
     .hero{
 
-         height:95vh;
+         height:135vh;
 
          background-size:contain;
 
@@ -528,7 +488,7 @@ line-height:1.8;
 
          background-position:center bottom;
 
-         padding:20px 20px 0px 20px;
+         padding:100px 20px 30px 20px;
 
     }
 
@@ -643,7 +603,7 @@ line-height:1.8;
 
     .hero{
 
-        min-height:85vh;
+        min-height:45vh;
     }
 
     .hero h1{
