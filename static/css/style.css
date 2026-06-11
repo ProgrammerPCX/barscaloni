@@ -451,11 +451,11 @@ line-height:1.8;
 
         flex-direction:column;
 
-        gap:15px;
+        gap:8px;
 
         width:95%;
 
-        padding:15px;
+        padding:10px;
     }
 
     .logo{
@@ -479,7 +479,7 @@ line-height:1.8;
 
     .hero{
 
-         height:70vh;
+         height:135vh;
 
          background-size:contain;
 
