@@ -447,13 +447,17 @@ line-height:1.8;
 
     .navbar{
 
-        flex-direction:column;
-
-        gap:15px;
-
         width:95%;
 
-        padding:15px;
+        padding:12px 15px;
+
+        display:flex;
+
+        flex-direction:row;
+
+        justify-content:space-between;
+
+        align-items:center;
     }
 
     .logo{
@@ -463,11 +467,13 @@ line-height:1.8;
 
     .navbar ul{
 
+        display:flex;
+
+        gap:10px;
+
         flex-wrap:wrap;
 
-        justify-content:center;
-
-        gap:12px;
+        justify-content:flex-end;
     }
 
     .navbar a{
