@@ -449,13 +449,9 @@ line-height:1.8;
 
     .navbar{
 
-        flex-direction:column;
+        min-height:65vh;
 
-        gap:15px;
-
-        width:95%;
-
-        padding:15px;
+        padding:100px 20px 30px 20px;
     }
 
     .logo{
