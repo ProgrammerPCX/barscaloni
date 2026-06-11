@@ -88,7 +88,7 @@ color:#d4af37;
 
 .hero{
 
-height:100vh;
+height:135vh;
 
 display:flex;
 
@@ -118,9 +118,7 @@ background:rgba(0,0,0,.45);
 
 .hero-content{
 
-position:relative;
-
-z-index:2;
+display:none;
 }
 
 .hero h1{
@@ -451,11 +449,11 @@ line-height:1.8;
 
         flex-direction:column;
 
-        gap:8px;
+        gap:15px;
 
         width:95%;
 
-        padding:10px;
+        padding:15px;
     }
 
     .logo{
@@ -477,9 +475,46 @@ line-height:1.8;
         font-size:0.95rem;
     }
 
+    .hero-content{
+
+        display:block;
+
+        position:absolute;
+
+        top:40px;
+
+        left:50%;
+
+        transform:translateX(-50%);
+
+        width:90%;
+
+        text-align:center;
+
+        z-index:5;
+    }
+
+    .hero h1{
+
+        font-size:2.3rem;
+
+        margin-bottom:10px;
+
+        text-shadow:0 5px 20px rgba(0,0,0,.7);
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+        margin-bottom:0;
+
+        text-shadow:0 5px 20px rgba(0,0,0,.7);
+    }
+
     .hero{
 
-         height:135vh;
+         height:95vh;
 
          background-size:contain;
 
@@ -487,7 +522,7 @@ line-height:1.8;
 
          background-position:center bottom;
 
-         padding:40px 20px 20px 20px;
+         padding:20px 20px 0px 20px;
 
     }
 
@@ -602,7 +637,7 @@ line-height:1.8;
 
     .hero{
 
-        min-height:45vh;
+        min-height:85vh;
     }
 
     .hero h1{
